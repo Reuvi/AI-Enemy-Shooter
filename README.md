@@ -2,6 +2,20 @@
 
 An enemy **NPC shooter for Roblox**. Drop it into your place and the NPC will **navigate the map and fire projectiles at players**, using Roblox pathfinding and simple, configurable combat logic.
 (Core game code transfered over, project directory, assets, and exact file structure is not the same)
+
+**Status:** Partial code drop for portfolio (not immediately runnable).
+**Why:** Proprietary/large assets and project-specific file structure are excluded.
+
+## What this shows
+- Core game/logic modules I wrote
+- Networking/state systems
+- Key patterns: (e.g., server-authoritative actions, data-driven configs)
+
+## What’s missing
+- Assets: models, textures, audio (`/Assets`)  
+- Private services / API keys  
+- Full project structure (tooling/workspace files)
+
 ## Features
 
 - **Drop-in enemy NPC** with ranged attack (projectile “bullet” model).
