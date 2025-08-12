@@ -118,14 +118,6 @@ ServerScriptService/
 - **Projectiles don’t move**: verify `BulletSpeed`, CFrame orientation, and any constraints/BodyMovers.
 - **No targets**: ensure players spawn and the targeting function searches the correct container (e.g., `Players`, `Workspace` characters).
 
-## Roadmap (Suggested)
-
-- Cover seeking and squad behaviors
-- Threat tables & focus fire
-- Networked VFX and hit feedback
-- Editor UI for tuning stats in Studio
-- Tests for raycast/LOS and path failures
-
 ## License
 
 Add your preferred license (e.g., MIT) or usage terms here.
