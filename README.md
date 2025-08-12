@@ -1,7 +1,7 @@
 # AI-Enemy-Shooter
 
 An enemy **NPC shooter for Roblox**. Drop it into your place and the NPC will **navigate the map and fire projectiles at players**, using Roblox pathfinding and simple, configurable combat logic.
-
+(Core game code transfered over, project directory, assets, and exact file structure is not the same)
 ## Features
 
 - **Drop-in enemy NPC** with ranged attack (projectile “bullet” model).
