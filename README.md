@@ -65,13 +65,13 @@ An enemy **NPC shooter for Roblox**. Drop it into your place and the NPC will **
 
 Expose or tweak these values in your script/module as constants or Attributes:
 
-- `AggroRadius` – how far the NPC notices players
-- `FireRate` – seconds between shots
-- `BulletSpeed` – projectile velocity
-- `Damage` – damage per hit
-- `MinShootDistance` / `MaxShootDistance` – effective firing envelope
-- `RepathInterval` – how often to recompute a path
-- `LOSCheck` – enable raycast line-of-sight checks
+- `AggroRadius` – how far the NPC notices players (Within Code)
+- `FireRate` – seconds between shots (Attribute to Model)
+- `BulletSpeed` – projectile velocity (Attribute to Model)
+- `Damage` – damage per hit (Attribute to Model)
+- `MinShootDistance` / `MaxShootDistance` – effective firing envelope (Within Code)
+- `RepathInterval` – how often to recompute a path (Within Code)
+- `LOSCheck` – enable raycast line-of-sight checks (Within Code)
 
 ### Projectiles
 
@@ -79,21 +79,12 @@ If you replace the projectile model:
 
 - Keep attachment/body-mover names consistent **or** update the script to match.
 - Verify orientation so shots travel forward relative to the NPC.
-- Consider using `FastCast` or custom raycasts for hitscan variants.
 
 ### Pathfinding Tips
 
 - Tight indoor maps: smaller waypoint radii, more frequent LOS checks.
 - Open maps: larger step spacing to reduce repath calls.
 - Add a short cooldown when paths fail to avoid thrashing.
-
-## Extending the NPC
-
-- Add a lightweight **state machine** (PATROL → CHASE → SHOOT → RELOAD → SEARCH).
-- Introduce **cover/peek** behavior and simple **flanking**.
-- Add **aim spread** and difficulty-based reaction delays.
-- Build a **spawn manager** for waves and difficulty presets.
-- Provide **melee** variants and mixed squads.
 
 ## Suggested Folder Conventions
 
