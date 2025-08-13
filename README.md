@@ -109,10 +109,6 @@ ServerScriptService/
 - **Projectiles don’t move**: verify `BulletSpeed`, CFrame orientation, and any constraints/BodyMovers.
 - **No targets**: ensure players spawn and the targeting function searches the correct container (e.g., `Players`, `Workspace` characters).
 
-## License
-
-Add your preferred license (e.g., MIT) or usage terms here.
-
 ## Credits
 
 Built by **Reuvi**. Thanks to the Roblox developer community for guidance and utilities like `SimplePath`.
